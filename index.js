@@ -35,7 +35,7 @@ function back(options) {
       return next(new Error('sessions are required for `express-back`'));
     }
     var _end = res.end;
-    var currentPath = req.path;
+    var currentPath = req.originalUrl;
     var session = req.session;
     req.prevPrevPath = session.prevPrevPath || defaultPath;
     req.prevPath = session.prevPath || defaultPath;
