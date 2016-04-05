@@ -1,12 +1,12 @@
 {
   "name": "express-back",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Express-back tracks the previous page a user visited in sessions, allowing for reliable back one page redirects.",
   "keywords": [
     "express previous page",
     "express previous path",
     "express redirect",
-    "express redirect back"
+    "express redirect back",
     "express back",
     "redirect back",
     "previous path",
